@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+
+@import url("webfonts/grandslang-b-side-webfont.woff2");
+
+.eight {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Syne ExtraBold", sans-serif;
+}
+
+.five {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Syne Medium", sans-serif;
+}
+
+.slang {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "GrandSlang", sans-serif;
+}
