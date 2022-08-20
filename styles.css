@@ -2,6 +2,14 @@
 
 @import url("webfonts/grandslang-b-side-webfont.woff2");
 
+* {background-color: #111}
+
+.video-head {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .eight {
   box-sizing: border-box;
   margin: 0;
@@ -28,4 +36,52 @@
   flex-wrap: wrap;
   row-gap: 0px;
   column-gap: 0px
+}
+
+h1 {
+  font-family: "Syne ExtraBold";
+  font-size: 178px;
+  line-height: 150px;
+  color: white;
+}
+
+h2 {
+  font-family: "Syne ExtraBold";
+  font-size: 150px;
+  line-height: 150px;
+  color: white;
+}
+
+h3 {
+
+}
+
+h4 {
+  font-family: "Syne ExtraBold";
+  font-size: 35px;
+  line-height: 90px;
+  color: white;
+}
+
+small {
+  font-family: "GrandSlang B-Side";
+  font-size: 18px;
+  font-kerning: normal;
+  line-height: 45px;
+  color: white;
+}
+
+p {
+  font-family: "Syne Medium";
+  font-size: 28px;
+  line-height: 40px;
+  color: white;
+}
+
+li {
+  font-family: "GrandSlang B-Side";
+  font-size: 18px;
+  font-kerning: normal;
+  line-height: 25px;
+  color: white;
 }
