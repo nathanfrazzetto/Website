@@ -43,6 +43,10 @@ h1 {
   font-size: 178px;
   line-height: 150px;
   color: white;
+  padding-top: 263px;
+  padding-bottom: 150px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 
 h2 {
@@ -50,6 +54,10 @@ h2 {
   font-size: 150px;
   line-height: 150px;
   color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 
 h3 {
@@ -76,6 +84,10 @@ p {
   font-size: 28px;
   line-height: 40px;
   color: white;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 
 li {
