@@ -4,6 +4,10 @@
 
 * {background-color: #111}
 
+html {
+  scroll-behavior: smooth;
+}
+
 .video-header {
   box-sizing: border-box;
   padding: 0;
