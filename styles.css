@@ -117,3 +117,48 @@ footer {
   margin-left: 160px;
   margin-right: 160px;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 75px; /* CHANGE FOR RESPONSIVE */
+}
+
+body {
+  position: relative;
+  top: 75px;
+}
+
+header > * {
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav > .remote {
+  float: left;
+}
+
+nav > .menu {
+  float: right;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.video-button {
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#showcase-video {
+  width: 100%;
+  height: auto;
+}

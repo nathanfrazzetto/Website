@@ -12,30 +12,37 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <nav>
+  <header>
+    <a class="logo" href="index.html"><img src="images/logo.svg" /></a>
     
-    <a class="logo" href="index.html"><img src="logo.svg" /></a>
-    
-    <div class="remote"></div>
-      <ul class="menu">
-        <li><a href="index.html">home</a></li>
-        <li><a href="demo.html">demo</a></li>
-        <li><a href="work.html">work</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>
-
-  </nav>
+    <nav>
+      <div class="remote">
+        <ul>
+  	<li id="prev" class="video-button">Previous</li>	
+  	<li id="play" class="video-button">Play</li>	
+  	<li id="pause" class="video-button">Pause</li>	
+  	<li id="next" class="video-button">Next</li>	
+        </ul>
+      </div>
+        <ul class="menu">
+          <li><a href="index.html">home</a></li>
+          <li><a href="demo.html">demo</a></li>
+          <li><a href="work.html">work</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+  </header>
 
   <body>
 
-    <header>
+    <div class="video-container">
       <div class="video-head">
-        <video class="hero" src="Header 01.mp4" muted loop autoplay></video>
+        <video id="showcase-video" class="hero" src="videos/Header 01.mp4" muted loop autoplay></video>
         <h1>nathan<br />frazzetto</h1>
         <h4 class="cta"><a href="demo.html">view demo reel</a></h4>
       </div>
-    </header>
+    </div>
 
     <div class="about-me">
       <h2 id="about">about me</h2>
@@ -73,16 +80,18 @@
 
   <footer>
     <a href="https://www.behance.net/nathanfrazzetto"
-      ><img src="behance.svg"
+      ><img src="images/behance.svg"
     /></a>
     <a href="https://www.linkedin.com/in/nathan-frazzetto/"
-      ><img src="linkedin.svg"
+      ><img src="images/linkedin.svg"
     /></a>
     <small>© nathanfrazzetto 2022</small>
     <a href="https://www.instagram.com/nathanfrazzetto/"
-      ><img src="instagram.svg"
+      ><img src="images/instagram.svg"
     /></a>
-    <a href="https://vimeo.com/nathanfrazzetto"><img src="vimeo.svg" /></a>
+    <a href="https://vimeo.com/nathanfrazzetto"><img src="images/vimeo.svg" /></a>
   </footer>
+
+  <script src="main.js"></script>
 
   </html>
