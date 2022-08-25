@@ -2,120 +2,69 @@
 
 @import url("webfonts/grandslang-b-side-webfont.woff2");
 
-* {background-color: #111}
-
 html {
   scroll-behavior: smooth;
 }
 
-.video-header {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  height: 1080px;
+body {
+  background-color: #111;
+  font-family: "Syne", sans-serif;
+  color: white;
+  position: relative;
+  margin: 1.5em;
+  top: 75px;
 }
 
-.eight {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Syne ExtraBold", sans-serif;
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
 }
 
-.five {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Syne Medium", sans-serif;
-}
-
-.slang {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "GrandSlang", sans-serif;
+.video-head {
+  top: 75px;
+  left: 0;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   row-gap: 0px;
-  column-gap: 0px
+  column-gap: 0px;
 }
 
 h1 {
   font-family: "Syne ExtraBold";
-  font-size: 178px;
-  line-height: 150px;
+  font-size: clamp(0.5em, 10em, 10em);
+  line-height: 1em;
   color: white;
-  padding-top: 263px;
-  padding-bottom: 150px;
-  margin-left: 160px;
-  margin-right: 160px;
 }
 
 h2 {
   font-family: "Syne ExtraBold";
-  font-size: 150px;
-  line-height: 150px;
+  font-size: 0.75em;
+  line-height: 0.75em;
   color: white;
-  padding-top: 150px;
-  padding-bottom: 50px;
-  margin-left: 160px;
-  margin-right: 160px;
-}
-
-h3 {
-
 }
 
 h4 {
   font-family: "Syne ExtraBold";
-  font-size: 35px;
-  line-height: 90px;
+  font-size: 1em;
   color: white;
 }
 
 small {
   font-family: "GrandSlang B-Side";
-  font-size: 18px;
+  font-size: 1em;
   font-kerning: normal;
-  line-height: 45px;
-  color: white;
-  text;
+  color: #ffffff;
 }
 
 p {
   font-family: "Syne Medium";
-  font-size: 28px;
-  line-height: 40px;
+  font-size: 1em;
+  line-height: 1.25em;
   color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-left: 160px;
-  margin-right: 160px;
-}
-
-li {
-  font-family: "GrandSlang B-Side";
-  font-size: 18px;
-  font-kerning: normal;
-  line-height: 25px;
-  color: white;
-}
-
-.demo {
-  width: 1600px;
-  margin-left: 160px;
-  margin-right: 160px;
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
-
-footer {
-  padding-top: 150px;
-  margin-left: 160px;
-  margin-right: 160px;
 }
 
 header {
@@ -124,11 +73,6 @@ header {
   right: 0;
   left: 0;
   height: 75px; /* CHANGE FOR RESPONSIVE */
-}
-
-body {
-  position: relative;
-  top: 75px;
 }
 
 header > * {
@@ -161,4 +105,9 @@ nav > .menu {
 #showcase-video {
   width: 100%;
   height: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;  
 }
