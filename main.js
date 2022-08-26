@@ -6,7 +6,7 @@
 var curr_vid_idx = 0;
 
 // ADD VIDEO TITLES HERE THAT YOU WANT TO LOOP THROUGH WITH SKIP BUTTONS (see 'video' directory)
-const videos = ["Header 01.mp4", "2022 DemoReel.mp4"];
+const videos = ["Header 01.mp4", "Header 02.mp4", "Header 03.mp4"];
 
 function loadVideo(index) {
   var video = document.getElementById("showcase-video");
