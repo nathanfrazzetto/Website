@@ -11,57 +11,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <nav>
-    <a class="logo" href="index.html"><img src="logo.svg" /></a>
-    <div class="remote"></div>
-    <ul class="menu">
-      <li><a href="index.html">home</a></li>
-      <li><a href="demo.html">demo</a></li>
-      <li><a href="work.html">work</a></li>
-      <li><a href="#about">about</a></li>
-      <li><a href="#contact">contact</a></li>
-    </ul>
-  </nav>
+
+  <header>
+    <a class="logo" href="index.html"><img src="images/logo.svg" /></a>
+
+    <nav>
+      <div class="remote">
+        <ul>
+          <li id="prev" class="video-button">
+            <img src="images/previous.svg" />
+          </li>
+          <li id="play" class="video-button"><img src="images/play.svg" /></li>
+          <li id="pause" class="video-button">
+            <img src="images/pause.svg" />
+          </li>
+          <li id="next" class="video-button"><img src="images/next.svg" /></li>
+        </ul>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">home</a></li>
+        <li><a href="demo.html">demo</a></li>
+        <li><a href="work.html">work</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <body>
-    <header>
-      <div class="project-head">
-        <h1>demo<br />reel</h1>
-      </div>
+    <h1>my<br />work</h1>
 
-      <div class="reel-video">
-        <video class="demo" src="2022 DemoReel.mp4" controls></video>
-      </div>
-    </header>
-
-    <div class="two-two">
+    <div class="work-projects">
       <a href="#"><img src="work/Curri Rebrand/thumbnail alt.png"></a>
       <a href="#"><img src="work/Carolina Panthers Boards/thumbnail.png"></a>
-      <a href="#"><img src="work/Curri How-To Videos/e.png"></a>
-      <a href="#"><img src="work/Super Bowls Greatest Commercials Show Boards/countdown full screen.png"></a>
+      <a href="#"><img src="work/Wake Forest Spirit Boards/c.png"></a>
+      <a href="#"><img src="work/Curri Illustrations/illustration a.png"></a>
+      <a href="#"><img src="work/Donate Life/d.jpg"></a>
     </div>
 
-    <div class="one-one">
-      <a href="#"><img src="work/Carolina Panthers Boards/thumbnail.png"></a>
+    <div class="contact-me">
+      <h2 id="contact">contact me</h2>
+      <ul>
+        <li>email<br />nathanfrazzetto@gmail.com</li>
+        <li>phone<br />123.456.7890</li>
+        <li>availability<br />9-5 est</li>
+      </ul>
     </div>
 
     <div class="next-scroll">
       <h4>
-        <a href="nathanfrazzetto resume.pdf">next video</a>
+        <a href="nathanfrazzetto resume.pdf" target="_blank">view resume</a>
       </h4>
     </div>
-
   </body>
+
   <footer>
     <a href="https://www.behance.net/nathanfrazzetto"
-      ><img src="behance.svg"
+      ><img src="images/behance.svg"
     /></a>
     <a href="https://www.linkedin.com/in/nathan-frazzetto/"
-      ><img src="linkedin.svg"
+      ><img src="images/linkedin.svg"
     /></a>
     <small>© nathanfrazzetto 2022</small>
     <a href="https://www.instagram.com/nathanfrazzetto/"
-      ><img src="instagram.svg"
+      ><img src="images/instagram.svg"
     /></a>
-    <a href="https://vimeo.com/nathanfrazzetto"><img src="vimeo.svg" /></a>
+    <a href="https://vimeo.com/nathanfrazzetto"
+      ><img src="images/vimeo.svg"
+    /></a>
   </footer>
+
+  <script src="main.js"></script>
 </html>

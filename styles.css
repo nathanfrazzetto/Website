@@ -111,3 +111,7 @@ nav > .menu {
   display: flex;
   justify-content: space-evenly;  
 }
+
+.work-projects {
+  display: flex;
+}
