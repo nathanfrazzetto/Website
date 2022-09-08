@@ -114,4 +114,6 @@ nav > .menu {
 
 .work-projects {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
